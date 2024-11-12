@@ -34,6 +34,12 @@ android {
     kotlinOptions {
         jvmTarget = "1.8"
     }
+    buildFeatures{
+        viewBinding=true
+    }
+    viewBinding {
+        enable = true
+    }
 }
 
 dependencies {
@@ -43,9 +49,17 @@ dependencies {
     implementation(libs.material)
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
+    implementation(libs.androidx.legacy.support.v4)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+
+    implementation("androidx.appcompat:appcompat:1.7.0")
+    implementation("androidx.core:core-ktx:1.12.0")
+    implementation("androidx.core:core:1.12.0")
+    implementation("androidx.lifecycle:lifecycle-common:2.8.7")
+    implementation("androidx.legacy:legacy-support-v4:1.0.0")
+    implementation("com.google.android.material:material:1.12.0")
 
     implementation("com.google.firebase:firebase-analytics:22.1.2")
     implementation ("com.airbnb.android:lottie:6.5.2")

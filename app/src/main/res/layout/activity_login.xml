@@ -13,7 +13,7 @@
         android:layout_marginStart="24dp"
         android:layout_marginTop="24dp"
         android:layout_marginEnd="24dp"
-        android:text="Login"
+        android:text="Login Page"
         android:textStyle="bold"
         android:fontFamily="serif"
         android:textAlignment="center"
@@ -61,13 +61,14 @@
                 android:inputType="textPassword"
                 tools:ignore="Autofill,HardcodedText,TouchTargetSizeCheck,VisualLintTextFieldSize" />
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/login_button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
                 android:backgroundTint="#4460F4"
                 android:padding="8dp"
+                style="@android:style/Widget.Button"
                 android:text="Login"
                 android:textAllCaps="false"
                 tools:ignore="DuplicateSpeakableTextCheck,HardcodedText,VisualLintButtonSize" />
@@ -76,7 +77,7 @@
                 android:id="@+id/forget_password"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="end"
+                android:layout_gravity="center"
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="8dp"
                 android:text="Forget Password"

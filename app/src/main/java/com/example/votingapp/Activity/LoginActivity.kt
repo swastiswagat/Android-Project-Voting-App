@@ -1,4 +1,4 @@
-package com.example.votingapp
+package com.example.votingapp.Activity
 
 import android.annotation.SuppressLint
 import android.content.Intent
@@ -7,8 +7,9 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
 import android.widget.Toast
-import androidx.appcompat.app.AppCompatActivity
 import android.util.Patterns
+import androidx.appcompat.app.AppCompatActivity
+import com.example.votingapp.R
 
 class LoginActivity : AppCompatActivity() {
 
@@ -35,6 +36,9 @@ class LoginActivity : AppCompatActivity() {
 
             if (validateInput(email, password)) {
                 Toast.makeText(this, "Login successful", Toast.LENGTH_SHORT).show()
+
+
+                val intent=Intent(this, MainActivity::class.java)
                 startActivity(intent)
                 finish()
             }
@@ -63,8 +67,8 @@ class LoginActivity : AppCompatActivity() {
                 userPassword.error = "Password is required"
                 false
             }
-            password.length < 6 -> {
-                userPassword.error = "Password should be at least 6 characters long"
+            password.length < 4 -> {
+                userPassword.error = "Password should be at least 4 characters long"
                 false
             }
             else -> true

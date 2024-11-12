@@ -1,12 +1,12 @@
-package com.example.votingapp
+package com.example.votingapp.Activity
 
 import android.annotation.SuppressLint
-import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
+import com.example.votingapp.R
 
 class ForgetPasswordActivity : AppCompatActivity() {
 
