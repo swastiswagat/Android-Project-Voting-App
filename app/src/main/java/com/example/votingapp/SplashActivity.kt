@@ -6,7 +6,11 @@ import android.os.Handler
 import android.os.Looper
 import androidx.appcompat.app.AppCompatActivity
 import com.airbnb.lottie.LottieAnimationView
+<<<<<<< HEAD
 import com.example.votingapp.R
+=======
+import com.example.votingapp.Activity.LoginActivity
+>>>>>>> f1354ea42783eb12b821af1ceedf765576ba5378
 
 class SplashActivity : AppCompatActivity() {
 
@@ -23,6 +27,10 @@ class SplashActivity : AppCompatActivity() {
             val intent = Intent(this@SplashActivity, LoginActivity::class.java)
             startActivity(intent)
             finish()
+<<<<<<< HEAD
         }, 3010)
+=======
+        }, 3005)
+>>>>>>> f1354ea42783eb12b821af1ceedf765576ba5378
     }
 }

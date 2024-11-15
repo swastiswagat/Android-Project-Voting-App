@@ -23,17 +23,34 @@
         </activity>
 
         <activity
+<<<<<<< HEAD
             android:name=".SignUpActivity"
+=======
+            android:name=".Activity.SignUpActivity"
+>>>>>>> f1354ea42783eb12b821af1ceedf765576ba5378
             android:exported="true">
         </activity>
 
         <activity
+<<<<<<< HEAD
             android:name=".LoginActivity"
+=======
+            android:name=".Activity.LoginActivity"
+>>>>>>> f1354ea42783eb12b821af1ceedf765576ba5378
             android:exported="true">
         </activity>
 
         <activity
+<<<<<<< HEAD
             android:name=".ForgetPasswordActivity"
+=======
+            android:name=".Activity.ForgetPasswordActivity"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".Activity.MainActivity"
+>>>>>>> f1354ea42783eb12b821af1ceedf765576ba5378
             android:exported="true">
         </activity>
 

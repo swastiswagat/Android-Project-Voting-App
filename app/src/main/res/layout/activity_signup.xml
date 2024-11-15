@@ -6,6 +6,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> f1354ea42783eb12b821af1ceedf765576ba5378
     <TextView
         android:id="@+id/textView"
         android:layout_width="0dp"
@@ -36,6 +40,10 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView">
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> f1354ea42783eb12b821af1ceedf765576ba5378
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -60,6 +68,18 @@
                 tools:ignore="Autofill,HardcodedText,TextContrastCheck,TouchTargetSizeCheck,VisualLintTextFieldSize" />
 
             <EditText
+<<<<<<< HEAD
+=======
+                android:id="@+id/user_adharno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:hint="Adhar Number"
+                android:inputType="number"
+                tools:ignore="Autofill,HardcodedText,TextContrastCheck,TouchTargetSizeCheck,VisualLintTextFieldSize" />
+
+            <EditText
+>>>>>>> f1354ea42783eb12b821af1ceedf765576ba5378
                 android:id="@+id/user_password"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -69,7 +89,11 @@
                 tools:ignore="Autofill,HardcodedText,TouchTargetSizeCheck,VisualLintTextFieldSize" />
 
             <Button
+<<<<<<< HEAD
                 android:id="@+id/signup_button"
+=======
+                android:id="@+id/login_button"
+>>>>>>> f1354ea42783eb12b821af1ceedf765576ba5378
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
@@ -87,8 +111,13 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
+<<<<<<< HEAD
         android:fontFamily="sans-serif-condensed-medium"
         android:text="Already have Account? Login"
+=======
+        android:text="Already have Account? Login"
+        android:fontFamily="sans-serif-condensed-medium"
+>>>>>>> f1354ea42783eb12b821af1ceedf765576ba5378
         android:textAlignment="center"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -98,4 +127,9 @@
         app:layout_constraintVertical_bias="0.336"
         tools:ignore="HardcodedText" />
 
+<<<<<<< HEAD
 </androidx.constraintlayout.widget.ConstraintLayout>
+=======
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+>>>>>>> f1354ea42783eb12b821af1ceedf765576ba5378

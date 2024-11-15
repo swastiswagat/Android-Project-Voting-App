@@ -13,7 +13,11 @@
         android:layout_marginStart="24dp"
         android:layout_marginTop="24dp"
         android:layout_marginEnd="24dp"
+<<<<<<< HEAD
         android:text="Login"
+=======
+        android:text="Login Page"
+>>>>>>> f1354ea42783eb12b821af1ceedf765576ba5378
         android:textStyle="bold"
         android:fontFamily="serif"
         android:textAlignment="center"
@@ -36,6 +40,10 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView">
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> f1354ea42783eb12b821af1ceedf765576ba5378
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -60,13 +68,21 @@
                 android:inputType="textPassword"
                 tools:ignore="Autofill,HardcodedText,TouchTargetSizeCheck,VisualLintTextFieldSize" />
 
+<<<<<<< HEAD
             <Button
+=======
+            <androidx.appcompat.widget.AppCompatButton
+>>>>>>> f1354ea42783eb12b821af1ceedf765576ba5378
                 android:id="@+id/login_button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
                 android:backgroundTint="#4460F4"
                 android:padding="8dp"
+<<<<<<< HEAD
+=======
+                style="@android:style/Widget.Button"
+>>>>>>> f1354ea42783eb12b821af1ceedf765576ba5378
                 android:text="Login"
                 android:textAllCaps="false"
                 tools:ignore="DuplicateSpeakableTextCheck,HardcodedText,VisualLintButtonSize" />
@@ -75,7 +91,11 @@
                 android:id="@+id/forget_password"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+<<<<<<< HEAD
                 android:layout_gravity="end"
+=======
+                android:layout_gravity="center"
+>>>>>>> f1354ea42783eb12b821af1ceedf765576ba5378
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="8dp"
                 android:text="Forget Password"
@@ -104,4 +124,9 @@
         app:layout_constraintVertical_bias="0.336"
         tools:ignore="HardcodedText" />
 
+<<<<<<< HEAD
 </androidx.constraintlayout.widget.ConstraintLayout>
+=======
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+>>>>>>> f1354ea42783eb12b821af1ceedf765576ba5378
